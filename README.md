@@ -1,22 +1,21 @@
 ## Hi, I'm Bahri 👋
 
-Frontend Developer focused on building clean, modern and user-friendly web interfaces.
+Customer Team Lead at Ticimax with a strong technical and frontend background.
+Experienced in bridging customer needs with technical solutions and product improvements.
 
 ### What I Do
-- Build responsive and accessible user interfaces
-- Develop reusable and maintainable UI components
-- Create clean and structured frontend architectures
-- Pay attention to performance and user experience
+- Lead and manage customer-facing technical teams
+- Analyze customer needs and translate them into technical requirements
+- Collaborate closely with development and product teams
+- Support frontend-related problem solving and UI improvements
 
-### Tech Stack
+### Technical Background
 - HTML, CSS, JavaScript
-- React
-- Tailwind CSS
+- Frontend architecture fundamentals
+- UI/UX awareness and usability-focused thinking
 - Git & GitHub
 
 ### Currently
-- Improving frontend best practices
-- Building small but production-ready UI projects
-- Strengthening component-based development skills
-
----
+- Leading customer operations and technical support processes
+- Improving technical documentation and workflows
+- Building frontend projects for continuous technical development
