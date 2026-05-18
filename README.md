@@ -1,21 +1,28 @@
-## Hi, I'm Bahri 👋
+<div align="center">
 
-Customer Team Lead at Ticimax with a strong technical and frontend background.
-Experienced in bridging customer needs with technical solutions and product improvements.
+# Bahri Yılmaz
 
-### What I Do
-- Lead and manage customer-facing technical teams
-- Analyze customer needs and translate them into technical requirements
-- Collaborate closely with development and product teams
-- Support frontend-related problem solving and UI improvements
+### Building premium digital systems.
 
-### Technical Background
-- HTML, CSS, JavaScript
-- Frontend architecture fundamentals
-- UI/UX awareness and usability-focused thinking
-- Git & GitHub
+<br/>
 
-### Currently
-- Leading customer operations and technical support processes
-- Improving technical documentation and workflows
-- Building frontend projects for continuous technical development
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=22&pause=1200&color=FFFFFF&center=true&vCenter=true&width=500&lines=Analytics+Architecture;Modern+Dashboard+Experiences;Growth+Systems;Frontend+Engineering" />
+
+<br/><br/>
+
+<p>
+  <img src="https://img.shields.io/badge/React-0f0f0f?style=for-the-badge&logo=react&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Node.js-0f0f0f?style=for-the-badge&logo=node.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Tailwind-0f0f0f?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Analytics-0f0f0f?style=for-the-badge"/>
+</p>
+
+<br/>
+
+<img width="100%" src="https://github-readme-stats.vercel.app/api?username=bahriyiilmaz1998&show_icons=true&theme=transparent&hide_border=true&title_color=ffffff&text_color=aaaaaa&icon_color=ffffff"/>
+
+<br/>
+
+> Minimal. Intelligent. Cinematic.
+
+</div>
