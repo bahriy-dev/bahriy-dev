@@ -21,15 +21,6 @@ to the UI, tests and deployment. Based in Istanbul, Türkiye.
 | **[Parola Oluştur](https://github.com/bahriy-dev/parola-olustur)** · [live](https://parolaolustur.com) | Browser-based password generator, hashing and cryptography toolkit. Everything runs client-side with the Web Crypto API; bilingual (TR/EN). | Next.js · TypeScript · Web Crypto · Playwright |
 | **[Şimdi Açık](https://github.com/bahriy-dev/simdiacik)** · [live](https://simdiacik.com) | Finds the nearest on-duty pharmacy in all 81 provinces of Türkiye, with official source links, call-to-confirm and directions. | Next.js · TypeScript · Drizzle ORM · Leaflet |
 
-### 🛠️ Other things I've built
-
-<sub>Source is private for these; happy to walk through them on request.</sub>
-
-- **Self-hosted 2FA platform:** registration, JWT access/refresh token rotation, RFC 6238 TOTP, brute-force and CSRF protection, with no third-party auth provider. *ASP.NET Core*
-- **Fitness Manager:** end-to-end gym management app. *React · ASP.NET Core 10 · PostgreSQL · Docker*
-- **Plankivo:** project and task management platform with dashboards. *React · Zustand · Recharts*
-- **Meta Token Studio:** developer tool that exchanges short-lived Meta Graph API tokens for long-lived ones. *Node.js · Express*
-
 ### 🧰 Tech stack
 
 - **Languages:** TypeScript, JavaScript, C#, SQL, HTML/CSS
