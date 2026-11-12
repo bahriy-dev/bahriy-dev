@@ -1,28 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="840" height="220" viewBox="0 0 840 220" role="img" aria-label="Bahri Yılmaz, full-stack developer">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="300" viewBox="0 0 880 300" role="img" aria-label="Bahri Yılmaz, full-stack developer in Istanbul">
   <defs>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#34d399"/>
-      <stop offset="1" stop-color="#22d3ee"/>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#34d399"/><stop offset="1" stop-color="#38bdf8"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0.92" cy="0" r="0.75">
-      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.14"/>
-      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#34d399"/><stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#34d399" stop-opacity="0"/>
+      <stop offset=".55" stop-color="#34d399" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".86" cy=".2" r=".6">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
     </radialGradient>
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#2a313c"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset=".35" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity="1"/>
+    </linearGradient>
+    <mask id="dotmask"><rect width="880" height="300" fill="url(#fade)"/></mask>
+    <clipPath id="card"><rect x="1" y="1" width="878" height="298" rx="20"/></clipPath>
   </defs>
   <style>
-    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
-    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
-    .name { font-size: 40px; font-weight: 700; fill: #f0f6fc; letter-spacing: -0.8px; }
-    .role { font-size: 18px; fill: #8b949e; }
-    .stack { font-size: 13.5px; fill: #8b949e; letter-spacing: 0.2px; }
-    .tag { font-size: 12.5px; fill: #8b949e; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+    .mono { font-family: ui-monospace, "SF Mono", SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace; }
+    .eyebrow { font-size: 12px; font-weight: 600; letter-spacing: 2.4px; fill: #34d399; }
+    .name { font-size: 46px; font-weight: 700; letter-spacing: -1.4px; fill: #f5f7fa; }
+    .lead { font-size: 17px; fill: #8b95a5; }
+    .chip { font-size: 12px; fill: #c3cbd6; }
+    .loc { font-size: 12px; fill: #8b95a5; letter-spacing: .3px; }
   </style>
-  <rect x="0.5" y="0.5" width="839" height="219" rx="16" fill="#0d1117" stroke="#30363d"/>
-  <rect x="0.5" y="0.5" width="839" height="219" rx="16" fill="url(#glow)"/>
-  <rect x="48" y="40" width="36" height="4" rx="2" fill="url(#accent)"/>
-  <g><text x="48" y="96" class="sans name">Bahri Yılmaz</text></g>
-  <g><text x="48" y="128" class="sans role">Full-stack developer · Istanbul</text></g>
+  <g clip-path="url(#card)">
+    <rect width="880" height="300" fill="#0a0d12"/>
+    <rect width="880" height="300" fill="url(#dots)" mask="url(#dotmask)"/>
+    <rect width="880" height="300" fill="url(#glow)"/>
+    <circle cx="760" cy="130" r="34" fill="none" stroke="url(#ring)" stroke-opacity="0.9" stroke-width="1"/>
+    <circle cx="760" cy="130" r="62" fill="none" stroke="url(#ring)" stroke-opacity="0.55" stroke-width="1"/>
+    <circle cx="760" cy="130" r="90" fill="none" stroke="url(#ring)" stroke-opacity="0.35" stroke-width="1"/>
+    <circle cx="760" cy="130" r="118" fill="none" stroke="url(#ring)" stroke-opacity="0.22" stroke-width="1"/>
+    <circle cx="760" cy="130" r="146" fill="none" stroke="url(#ring)" stroke-opacity="0.12" stroke-width="1"/>
+    <circle cx="760" cy="130" r="5" fill="url(#accent)"/>
+    <circle cx="822" cy="130" r="3" fill="#38bdf8"/>
+    <circle cx="696" cy="48" r="2.5" fill="#34d399" opacity=".8"/>
+    <rect x="0" y="0" width="880" height="1.5" fill="url(#edge)"/>
+  </g>
+  <rect x="1" y="1" width="878" height="298" rx="20" fill="none" stroke="#262c36"/>
+
+  <text x="56" y="70" class="mono eyebrow">FULL-STACK DEVELOPER</text>
+  <text x="54" y="124" class="sans name">Bahri Yılmaz</text>
+  <text x="56" y="160" class="sans lead">Building web products end to end, from data model to deployment.</text>
+  <circle cx="60" cy="191" r="3.5" fill="#34d399"/>
+  <text x="72" y="195" class="sans loc">Istanbul, Türkiye</text>
   <g>
-    <text x="48" y="184" class="mono stack">TypeScript  /  Next.js  /  React  /  Node.js  /  ASP.NET Core  /  PostgreSQL</text>
+    <rect x="56" y="222" width="96" height="28" rx="14" fill="#11161d" stroke="#262c36"/><text x="104.0" y="240.5" text-anchor="middle" class="mono chip">TypeScript</text>
+    <rect x="160" y="222" width="75" height="28" rx="14" fill="#11161d" stroke="#262c36"/><text x="197.5" y="240.5" text-anchor="middle" class="mono chip">Next.js</text>
+    <rect x="243" y="222" width="60" height="28" rx="14" fill="#11161d" stroke="#262c36"/><text x="273.0" y="240.5" text-anchor="middle" class="mono chip">React</text>
+    <rect x="311" y="222" width="75" height="28" rx="14" fill="#11161d" stroke="#262c36"/><text x="348.5" y="240.5" text-anchor="middle" class="mono chip">Node.js</text>
+    <rect x="394" y="222" width="111" height="28" rx="14" fill="#11161d" stroke="#262c36"/><text x="449.5" y="240.5" text-anchor="middle" class="mono chip">ASP.NET Core</text>
+    <rect x="513" y="222" width="96" height="28" rx="14" fill="#11161d" stroke="#262c36"/><text x="561.0" y="240.5" text-anchor="middle" class="mono chip">PostgreSQL</text>
   </g>
 </svg>

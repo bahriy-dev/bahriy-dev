@@ -3,9 +3,10 @@
   <img src="assets/header-light.svg" alt="Bahri Yılmaz — Full-stack developer, Istanbul" width="100%">
 </picture>
 
-<br>
-
-I build web applications end to end: data model, API, interface, tests and deployment.
-By day, partner sales at [ikas](https://ikas.com).
-
-[bahriyilmaz.dev](https://bahriyilmaz.dev) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/bahriyilmaz/)
+<p align="center">
+  <a href="https://bahriyilmaz.dev">bahriyilmaz.dev</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/bahriyilmaz/">LinkedIn</a>
+  <br>
+  <sub>By day, partner sales at <a href="https://ikas.com">ikas</a>.</sub>
+</p>
