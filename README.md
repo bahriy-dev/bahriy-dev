@@ -8,5 +8,5 @@
   &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/bahriyilmaz/">LinkedIn</a>
   <br>
-  <sub>artner sales at <a href="https://ikas.com">ikas</a>.</sub>
+  <sub>Partner sales at <a href="https://ikas.com">ikas</a>.</sub>
 </p>
